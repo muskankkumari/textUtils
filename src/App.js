@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import { useState } from 'react';
 
 function App() {
+  const [mode,setmode]= useState('light');//dark mode in enabled or not.
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+<Navbar aboutus="aboutMuskan"/>
+<div className="container my-3">
+<Hero heading="Enter your text..."/>
+</div>
+<About/>
     </div>
   );
 }
