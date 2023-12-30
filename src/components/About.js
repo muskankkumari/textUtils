@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export default function About() {
   return (
-    <div className="container" style={myStyle}>
+    <div className="container">
         <h1 className="my-3">About Us</h1>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
@@ -13,13 +13,13 @@ export default function About() {
               data-bs-toggle="collapse"
               data-bs-target="#collapseOne"
               aria-expanded="true"
-              aria-controls="collapseOne" style={myStyle}
+              aria-controls="collapseOne" 
             >
               Accordion Item #1
             </button>
           </h2>
           <div
-            id="collapseOne" style={greyStyle}
+            id="collapseOne"
             className="accordion-collapse collapse show "
             data-bs-parent="#accordionExample"
           >
@@ -43,7 +43,7 @@ export default function About() {
               data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
               aria-expanded="false"
-              aria-controls="collapseTwo" style={myStyle}
+              aria-controls="collapseTwo" 
             >
               Accordion Item #2
             </button>
@@ -51,7 +51,7 @@ export default function About() {
           <div
             id="collapseTwo"
             className="accordion-collapse collapse"
-            data-bs-parent="#accordionExample"style={greyStyle}
+            data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
               <strong>This is the second item's accordion body.</strong> It is
@@ -73,7 +73,7 @@ export default function About() {
               data-bs-toggle="collapse"
               data-bs-target="#collapseThree"
               aria-expanded="false"
-              aria-controls="collapseThree" style={myStyle}
+              aria-controls="collapseThree" 
             >
               Accordion Item #3
             </button>
@@ -81,7 +81,7 @@ export default function About() {
           <div
             id="collapseThree"
             className="accordion-collapse collapse"
-            data-bs-parent="#accordionExample"style={greyStyle}
+            data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
               <strong>This is the third item's accordion body.</strong> It is
