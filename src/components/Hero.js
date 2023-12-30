@@ -1,15 +1,6 @@
 import React, {useState} from 'react'
 
 export default function Hero(props) {
-  let greyStyle={
-    color: "white",
-    backgroundColor: "#1B4242"
-}
-const[myStyle, setMyStyle]= useState({
-  color:'white',
-  backgroundColor: 'black',
-  border: "1px solid white"
-  });
   const handleUpClick =()=>{
     let uppercasetext=text.toUpperCase()
     setText(uppercasetext)
