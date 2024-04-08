@@ -43,7 +43,7 @@ export default function Hero(props) {
     <div className='container'>
         <h1>{props.heading}</h1>
 <div className="mb-3"> 
-  <textarea className="form-control" value={text} onChange={handleOnChange} id="exampleFormControlTextarea1" rows="5" style={greyStyle}></textarea>
+  <textarea className="form-control" value={text} onChange={handleOnChange} id="exampleFormControlTextarea1" rows="5" ></textarea>
   <button className="btn btn-primary my-3" onClick={handleUpClick}>Convert to upperCase</button>
   <button className="btn btn-primary my-3 mx-1" onClick={handledownClick}>Convert to lowerCase</button>
   <button className="btn btn-primary my-3 " onClick={handleclearClick}>Clear</button>
